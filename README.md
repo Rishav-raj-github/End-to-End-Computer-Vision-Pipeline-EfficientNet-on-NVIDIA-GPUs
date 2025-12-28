@@ -18,6 +18,17 @@
 
 ---
 
+## 🔗 Google Colab Notebooks
+
+Run the complete pipeline directly in Google Colab with GPU acceleration:
+
+| Notebook | Description | Colab Badge |
+|----------|-------------|-------------|
+| **Data Augmentation** | Advanced augmentation techniques (RandAugment, Mixup, CutMix) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rishav-raj-github/End-to-End-Computer-Vision-Pipeline-EfficientNet-on-NVIDIA-GPUs/blob/main/colab_notebooks/01_Data_Augmentation_Colab.ipynb) |
+| **EfficientNet Training** | FP16 mixed precision training on T4 GPU | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rishav-raj-github/End-to-End-Computer-Vision-Pipeline-EfficientNet-on-NVIDIA-GPUs/blob/main/colab_notebooks/02_EfficientNet_Training_Colab.ipynb) |
+| **Model Evaluation** | Comprehensive metrics & confusion matrices | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rishav-raj-github/End-to-End-Computer-Vision-Pipeline-EfficientNet-on-NVIDIA-GPUs/blob/main/colab_notebooks/03_Model_Evaluation_Colab.ipynb) |
+| **Inference Optimization** | ONNX export & model optimization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rishav-raj-github/End-to-End-Computer-Vision-Pipeline-EfficientNet-on-NVIDIA-GPUs/blob/main/colab_notebooks/04_Inference_Optimization_Colab.ipynb) |
+
 ## 🎯 Professional Overview
 
 This repository provides an **end-to-end pipeline** covering data ingestion, training (EfficientNet/ViT), evaluation, conversion, and scalable deployment. It is engineered for reproducibility, performance, and extensibility:
